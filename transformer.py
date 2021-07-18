@@ -18,17 +18,17 @@ logging.info("Loading tokenizer")
 tokenizer = BertTokenizer.from_pretrained('bert-large-uncased-whole-word-masking-finetuned-squad')
 logging.info("Tokenizer load complete")
 
-# question = '''Why was the student group called "the Methodists?"'''
+question = '''Why was the student group called "the Methodists?"'''
 
-# paragraph = ''' The movement which would become The United Methodist Church began in the mid-18th century within the Church of England.
-#             A small group of students, including John Wesley, Charles Wesley and George Whitefield, met on the Oxford University campus.
-#             They focused on Bible study, methodical study of scripture and living a holy life.
-#             Other students mocked them, saying they were the "Holy Club" and "the Methodists", being methodical and exceptionally detailed in their Bible study, opinions and disciplined lifestyle.
-#             Eventually, the so-called Methodists started individual societies or classes for members of the Church of England who wanted to live a more religious life. '''
+paragraph = ''' The movement which would become The United Methodist Church began in the mid-18th century within the Church of England.
+            A small group of students, including John Wesley, Charles Wesley and George Whitefield, met on the Oxford University campus.
+            They focused on Bible study, methodical study of scripture and living a holy life.
+            Other students mocked them, saying they were the "Holy Club" and "the Methodists", being methodical and exceptionally detailed in their Bible study, opinions and disciplined lifestyle.
+            Eventually, the so-called Methodists started individual societies or classes for members of the Church of England who wanted to live a more religious life. '''
 
-question = '''where do sedimentary rocks get its name from the fact that?'''
-paragraph = '''Sedimentary rocks are formed by the process of sedimentation. Layer after layer of minerals is deposited over a great span of time, resulting in the formation of a sedimentary rock. As a result, each layer is different if the conditions under which its deposits were different. Thus we can say that a sedimentary rock is a sort of museum,
- holding the records of all the time over which it was formed, which by all means can be as long as a billion years.'''
+# question = '''where do sedimentary rocks get its name from the fact that?'''
+# paragraph = '''Sedimentary rocks are formed by the process of sedimentation. Layer after layer of minerals is deposited over a great span of time, resulting in the formation of a sedimentary rock. As a result, each layer is different if the conditions under which its deposits were different. Thus we can say that a sedimentary rock is a sort of museum,
+#  holding the records of all the time over which it was formed, which by all means can be as long as a billion years.'''
 
 
 
